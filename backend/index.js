@@ -74,36 +74,47 @@ app.post('/api/getTokenData', async (req, res) => {
           market_data: {
             current_price: {
               usd: data.market_data.current_price.usd,
+              btc: data.market_data.current_price.btc,
             },
             ath: {
               usd: data.market_data.ath.usd,
+              btc: data.market_data.ath.btc,
             },
             ath_change_percentage: {
               usd: data.market_data.ath_change_percentage.usd,
+              btc: data.market_data.ath_change_percentage.btc,
             },
             ath_date: {
               usd: data.market_data.ath_date.usd,
+              btc: data.market_data.ath_date.btc,
             },
             atl: {
               usd: data.market_data.atl.usd,
+              btc: data.market_data.atl.btc,
             },
             atl_change_percentage: {
               usd: data.market_data.atl_change_percentage.usd,
+              btc: data.market_data.atl_change_percentage.btc,
             },
             atl_date: {
               usd: data.market_data.atl_date.usd,
+              btc: data.market_data.atl_date.btc,
             },
             market_cap: {
               usd: data.market_data.market_cap.usd,
+              btc: data.market_data.market_cap.btc,
             },
             total_volume: {
               usd: data.market_data.total_volume.usd,
+              btc: data.market_data.total_volume.btc,
             },
             high_24h: {
               usd: data.market_data.high_24h.usd,
+              btc: data.market_data.high_24h.btc,
             },
             low_24h: {
               usd: data.market_data.low_24h.usd,
+              btc: data.market_data.low_24h.btc,
             },
             price_change_24h: data.market_data.price_change_24h,
             price_change_percentage_24h: data.market_data.price_change_percentage_24h,
