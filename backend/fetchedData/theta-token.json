@@ -1,0 +1,495 @@
+{
+  "id": "theta-token",
+  "symbol": "theta",
+  "name": "Theta Network",
+  "description": {
+    "en": "Theta network is a decentralized video streaming network that is powered by blockchain technology. Theta allows users to watch video content and get rewarded with tokens as they share their internet bandwidth and computing resources on a peer-to-peer (P2P) basis. Besides a line-up of institutional investors like Node Capital and DHVC, Theta Network is advised by Steve Chen, co-founder of YouTube, and Justin Kan, co-founder of Twitch. The video streaming services on Theta rely on a distributed network of users who voluntarily contribute their spare bandwidth and computing resources to run Theta’s system, in return for Theta Fuel (TFuel) reward.\r\n\r\nTheta runs on a modified proof-of-stake consensus mechanism as it has a unique multi-Byzantine Fault Tolerance (BFT) which combines a committee of 20-30 Validator nodes with a second later of thousands of Guardian nodes. This acts to speed up approvals and is faster than traditional proof-of-work networks. Theta’s multi-BFT design achieves a healthy balance between consistency, speed, and decentralization."
+  },
+  "links": {
+    "homepage": [
+      "https://www.thetatoken.org/",
+      "",
+      ""
+    ],
+    "whitepaper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf",
+    "blockchain_site": [
+      "https://explorer.thetatoken.org",
+      "https://explorer.energi.network/token/0x65622f8e8b569ade3f684b5f2a189f78f98a75b0",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "official_forum_url": [
+      "",
+      "",
+      ""
+    ],
+    "chat_url": [
+      "https://discord.com/invite/nC8mCkgEmV",
+      "https://www.facebook.com/ThetaNetwork/",
+      ""
+    ],
+    "announcement_url": [
+      "https://medium.com/theta-network",
+      ""
+    ],
+    "twitter_screen_name": "Theta_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2451089,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/theta_network/",
+    "repos_url": {
+      "github": [
+        "https://github.com/thetatoken/theta-protocol-ledger",
+        "https://github.com/thetatoken/theta-infrastructure-vault",
+        "https://github.com/thetatoken/theta-infrastructure-ledger-explorer",
+        "https://github.com/thetatoken/theta-protocol-delivery-lib"
+      ],
+      "bitbucket": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.53,
+      "btc": 0.00002333
+    },
+    "ath": {
+      "usd": 15.72,
+      "btc": 0.00027855
+    },
+    "ath_change_percentage": {
+      "usd": -90.2951,
+      "btc": -91.61283
+    },
+    "ath_date": {
+      "usd": "2021-04-16T13:15:11.190Z",
+      "btc": "2021-06-09T11:23:19.561Z"
+    },
+    "atl": {
+      "usd": 0.04039979,
+      "btc": 0.0000094
+    },
+    "atl_change_percentage": {
+      "usd": 3676.21652,
+      "btc": 148.56896
+    },
+    "atl_date": {
+      "usd": "2020-03-13T02:24:16.483Z",
+      "btc": "2019-07-16T00:00:00.000Z"
+    },
+    "market_cap": {
+      "usd": 1525583719,
+      "btc": 23362
+    },
+    "total_volume": {
+      "usd": 21352315,
+      "btc": 326.16
+    },
+    "high_24h": {
+      "usd": 1.71,
+      "btc": 0.00002552
+    },
+    "low_24h": {
+      "usd": 1.52,
+      "btc": 0.00002319
+    },
+    "price_change_24h": -0.16863102263074,
+    "price_change_percentage_24h": -9.94208,
+    "price_change_percentage_7d": -22.44547,
+    "price_change_percentage_14d": -29.34716,
+    "price_change_percentage_30d": -30.49549,
+    "price_change_percentage_60d": -26.20708,
+    "price_change_percentage_200d": 49.33766,
+    "price_change_percentage_1y": 134.49684,
+    "market_cap_change_24h": -177975061.21267,
+    "market_cap_change_percentage_24h": -10.44725
+  },
+  "tickers": [
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.0000234,
+      "volume": 72447,
+      "converted_last": {
+        "btc": 0.0000234,
+        "eth": 0.00043638,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 1.745709,
+        "eth": 32.555077,
+        "usd": 114445
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.127443,
+      "timestamp": "2024-06-17T15:52:01+00:00",
+      "last_traded_at": "2024-06-17T15:52:01+00:00",
+      "last_fetch_at": "2024-06-17T15:52:01+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/THETA_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "WhiteBIT",
+        "identifier": "whitebit",
+        "has_trading_incentive": false
+      },
+      "last": 0.00002336,
+      "volume": 135231.1,
+      "converted_last": {
+        "btc": 0.00002336,
+        "eth": 0.00043627,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 3.158998,
+        "eth": 58.997,
+        "usd": 206867
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.213858,
+      "timestamp": "2024-06-17T16:09:49+00:00",
+      "last_traded_at": "2024-06-17T16:09:49+00:00",
+      "last_fetch_at": "2024-06-17T16:09:49+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://whitebit.com/trade/THETA_BTC",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "CoinEx",
+        "identifier": "coinex",
+        "has_trading_incentive": false
+      },
+      "last": 0.00002331,
+      "volume": 427.68188884,
+      "converted_last": {
+        "btc": 0.00002331,
+        "eth": 0.00043553,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.01036042,
+        "eth": 0.19357673,
+        "usd": 678.26
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.724329,
+      "timestamp": "2024-06-17T16:11:23+00:00",
+      "last_traded_at": "2024-06-17T16:11:23+00:00",
+      "last_fetch_at": "2024-06-17T16:11:23+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.coinex.com/trading?currency=BTC&dest=THETA#limit",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "FMFW.io",
+        "identifier": "bitcoin_com",
+        "has_trading_incentive": false
+      },
+      "last": 0.000023351,
+      "volume": 969.1,
+      "converted_last": {
+        "btc": 0.00002335,
+        "eth": 0.00043628,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.02262945,
+        "eth": 0.42279629,
+        "usd": 1481.5
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.31651,
+      "timestamp": "2024-06-17T16:10:31+00:00",
+      "last_traded_at": "2024-06-17T16:10:31+00:00",
+      "last_fetch_at": "2024-06-17T16:10:31+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://fmfw.io/THETA-to-BTC",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "USD",
+      "market": {
+        "name": "Crypto.com Exchange",
+        "identifier": "crypto_com",
+        "has_trading_incentive": false
+      },
+      "last": 1.52766,
+      "volume": 33905.2,
+      "converted_last": {
+        "btc": 0.00002334,
+        "eth": 0.000436,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.79118266,
+        "eth": 14.782657,
+        "usd": 51796
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.541829,
+      "timestamp": "2024-06-17T16:11:07+00:00",
+      "last_traded_at": "2024-06-17T16:11:07+00:00",
+      "last_fetch_at": "2024-06-17T16:11:07+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://crypto.com/exchange/trade/spot/THETA_USD",
+      "token_info_url": null,
+      "coin_id": "theta-token"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "Pionex",
+        "identifier": "pionex",
+        "has_trading_incentive": false
+      },
+      "last": 0.00002335,
+      "volume": 1844.85,
+      "converted_last": {
+        "btc": 0.00002335,
+        "eth": 0.00043626,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.04497477,
+        "eth": 0.8402839,
+        "usd": 2944.39
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.299658,
+      "timestamp": "2024-06-17T16:10:50+00:00",
+      "last_traded_at": "2024-06-17T16:10:50+00:00",
+      "last_fetch_at": "2024-06-17T16:10:50+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.pionex.com/en/trade/THETA_BTC/Bot",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "Dex-Trade",
+        "identifier": "dextrade",
+        "has_trading_incentive": false
+      },
+      "last": 0.00002338,
+      "volume": 1012,
+      "converted_last": {
+        "btc": 0.00002338,
+        "eth": 0.00043634,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.02366056,
+        "eth": 0.44157113,
+        "usd": 1549.45
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.426803,
+      "timestamp": "2024-06-17T16:07:25+00:00",
+      "last_traded_at": "2024-06-17T16:07:25+00:00",
+      "last_fetch_at": "2024-06-17T16:07:25+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://dex-trade.com/spot/trading/THETABTC?interface=classic",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "HitBTC",
+        "identifier": "hitbtc",
+        "has_trading_incentive": false
+      },
+      "last": 0.000023351,
+      "volume": 969.1,
+      "converted_last": {
+        "btc": 0.00002335,
+        "eth": 0.0004363,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.02382696,
+        "eth": 0.4451889,
+        "usd": 1559.86
+      },
+      "trust_score": "red",
+      "bid_ask_spread_percentage": 0.312513,
+      "timestamp": "2024-06-17T16:08:31+00:00",
+      "last_traded_at": "2024-06-17T16:08:31+00:00",
+      "last_fetch_at": "2024-06-17T16:11:05+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://hitbtc.com/THETA-to-BTC",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "LocalTrade",
+        "identifier": "localtrade",
+        "has_trading_incentive": false
+      },
+      "last": 0.00002342,
+      "volume": 2698.98352257,
+      "converted_last": {
+        "btc": 0.00002342,
+        "eth": 0.00043708,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.06321019,
+        "eth": 1.179676,
+        "usd": 4139.43
+      },
+      "trust_score": "red",
+      "bid_ask_spread_percentage": 0.213493,
+      "timestamp": "2024-06-17T16:07:20+00:00",
+      "last_traded_at": "2024-06-17T16:07:20+00:00",
+      "last_fetch_at": "2024-06-17T16:07:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://localtrade.cc/trade/THETA_BTC",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "THETA",
+      "target": "USD",
+      "market": {
+        "name": "Tokenize",
+        "identifier": "tokenize",
+        "has_trading_incentive": false
+      },
+      "last": 1.5166,
+      "volume": 70220.81030265067,
+      "converted_last": {
+        "btc": 0.00002316,
+        "eth": 0.00043221,
+        "usd": 1.52
+      },
+      "converted_volume": {
+        "btc": 1.626235,
+        "eth": 30.350009,
+        "usd": 106497
+      },
+      "trust_score": null,
+      "bid_ask_spread_percentage": 2.047407,
+      "timestamp": "2024-06-17T16:07:33+00:00",
+      "last_traded_at": "2024-06-17T16:07:33+00:00",
+      "last_fetch_at": "2024-06-17T16:07:33+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://tokenize.exchange/market/USD-THETA",
+      "token_info_url": null,
+      "coin_id": "theta-token"
+    },
+    {
+      "base": "THETA",
+      "target": "USD",
+      "market": {
+        "name": "Bitfinex",
+        "identifier": "bitfinex",
+        "has_trading_incentive": false
+      },
+      "last": 1.5321,
+      "volume": 891.76153435,
+      "converted_last": {
+        "btc": 0.0000234,
+        "eth": 0.00043727,
+        "usd": 1.53
+      },
+      "converted_volume": {
+        "btc": 0.02086986,
+        "eth": 0.38993781,
+        "usd": 1366.27
+      },
+      "trust_score": null,
+      "bid_ask_spread_percentage": 1.604621,
+      "timestamp": "2024-06-17T16:11:03+00:00",
+      "last_traded_at": "2024-06-17T16:11:03+00:00",
+      "last_fetch_at": "2024-06-17T16:11:03+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://trading.bitfinex.com/t/THETA:USD?type=exchange",
+      "token_info_url": null,
+      "coin_id": "theta-token"
+    },
+    {
+      "base": "THETA",
+      "target": "BTC",
+      "market": {
+        "name": "TokoCrypto",
+        "identifier": "toko_crypto",
+        "has_trading_incentive": false
+      },
+      "last": 0.00002794,
+      "volume": 95.669291339,
+      "converted_last": {
+        "btc": 0.00002794,
+        "eth": 0.00053762,
+        "usd": 1.95
+      },
+      "converted_volume": {
+        "btc": 0.002673,
+        "eth": 0.05143351,
+        "usd": 186.08
+      },
+      "trust_score": null,
+      "bid_ask_spread_percentage": 0.127497,
+      "timestamp": "2024-06-12T17:00:46+00:00",
+      "last_traded_at": "2024-06-12T17:00:46+00:00",
+      "last_fetch_at": "2024-06-12T17:00:46+00:00",
+      "is_anomaly": true,
+      "is_stale": true,
+      "trade_url": "https://www.tokocrypto.com/trade/THETABTC",
+      "token_info_url": null,
+      "coin_id": "theta-token",
+      "target_coin_id": "bitcoin"
+    }
+  ]
+}

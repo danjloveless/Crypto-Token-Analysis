@@ -54,8 +54,8 @@
   },
   "market_data": {
     "current_price": {
-      "usd": 0.21526,
-      "btc": 0.00000329
+      "usd": 0.214886,
+      "btc": 0.00000328
     },
     "ath": {
       "usd": 2.84,
@@ -86,8 +86,8 @@
       "btc": 31172
     },
     "total_volume": {
-      "usd": 79272632,
-      "btc": 1212
+      "usd": 69946653,
+      "btc": 1068
     },
     "high_24h": {
       "usd": 0.238876,
@@ -97,14 +97,14 @@
       "usd": 0.212967,
       "btc": 0.00000326
     },
-    "price_change_24h": -0.021550567232659,
-    "price_change_percentage_24h": -9.10033,
-    "price_change_percentage_7d": -18.30509,
-    "price_change_percentage_14d": -28.61203,
-    "price_change_percentage_30d": -30.38915,
-    "price_change_percentage_60d": -14.94172,
-    "price_change_percentage_200d": 51.28245,
-    "price_change_percentage_1y": 114.75025,
+    "price_change_24h": -0.0219248976091,
+    "price_change_percentage_24h": -9.2584,
+    "price_change_percentage_7d": -19.47346,
+    "price_change_percentage_14d": -28.73617,
+    "price_change_percentage_30d": -30.51021,
+    "price_change_percentage_60d": -15.14169,
+    "price_change_percentage_200d": 51.01938,
+    "price_change_percentage_1y": 114.37681,
     "market_cap_change_24h": -218862658.57036,
     "market_cap_change_percentage_24h": -9.70799
   },
@@ -113,30 +113,30 @@
       "base": "GRT",
       "target": "USD",
       "market": {
-        "name": "Kraken",
-        "identifier": "kraken",
+        "name": "Coinbase Exchange",
+        "identifier": "gdax",
         "has_trading_incentive": false
       },
-      "last": 0.21486,
-      "volume": 798358.59948763,
+      "last": 0.2145,
+      "volume": 29305362.66,
       "converted_last": {
         "btc": 0.00000328,
-        "eth": 0.00006131,
-        "usd": 0.21486
+        "eth": 0.00006113,
+        "usd": 0.2145
       },
       "converted_volume": {
-        "btc": 2.622472,
-        "eth": 48.947003,
-        "usd": 171535
+        "btc": 95.982,
+        "eth": 1791,
+        "usd": 6286000
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.032607,
-      "timestamp": "2024-06-17T16:04:27+00:00",
-      "last_traded_at": "2024-06-17T16:04:27+00:00",
-      "last_fetch_at": "2024-06-17T16:05:32+00:00",
+      "bid_ask_spread_percentage": 0.046598,
+      "timestamp": "2024-06-17T16:08:52+00:00",
+      "last_traded_at": "2024-06-17T16:08:52+00:00",
+      "last_fetch_at": "2024-06-17T16:08:52+00:00",
       "is_anomaly": false,
       "is_stale": false,
-      "trade_url": "https://pro.kraken.com/app/trade/GRT-USD",
+      "trade_url": "https://www.coinbase.com/advanced-trade/spot/GRT-USD",
       "token_info_url": null,
       "coin_id": "the-graph"
     },
@@ -144,30 +144,30 @@
       "base": "GRT",
       "target": "USD",
       "market": {
-        "name": "Coinbase Exchange",
-        "identifier": "gdax",
+        "name": "Kraken",
+        "identifier": "kraken",
         "has_trading_incentive": false
       },
-      "last": 0.2147,
-      "volume": 29247839.45,
+      "last": 0.2148,
+      "volume": 803378.59948763,
       "converted_last": {
         "btc": 0.00000328,
-        "eth": 0.0000613,
-        "usd": 0.2147
+        "eth": 0.00006126,
+        "usd": 0.2148
       },
       "converted_volume": {
-        "btc": 96.003,
-        "eth": 1793,
-        "usd": 6279511
+        "btc": 2.635192,
+        "eth": 49.214536,
+        "usd": 172566
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.046555,
-      "timestamp": "2024-06-17T16:04:55+00:00",
-      "last_traded_at": "2024-06-17T16:04:55+00:00",
-      "last_fetch_at": "2024-06-17T16:04:55+00:00",
+      "bid_ask_spread_percentage": 0.079199,
+      "timestamp": "2024-06-17T16:07:48+00:00",
+      "last_traded_at": "2024-06-17T16:07:48+00:00",
+      "last_fetch_at": "2024-06-17T16:09:21+00:00",
       "is_anomaly": false,
       "is_stale": false,
-      "trade_url": "https://www.coinbase.com/advanced-trade/spot/GRT-USD",
+      "trade_url": "https://pro.kraken.com/app/trade/GRT-USD",
       "token_info_url": null,
       "coin_id": "the-graph"
     },
@@ -183,22 +183,86 @@
       "volume": 799852,
       "converted_last": {
         "btc": 0.00000329,
-        "eth": 0.00006141,
-        "usd": 0.215198
+        "eth": 0.0000614,
+        "usd": 0.215468
       },
       "converted_volume": {
         "btc": 2.701943,
-        "eth": 50.43,
-        "usd": 176734
+        "eth": 50.428,
+        "usd": 176955
       },
       "trust_score": "green",
       "bid_ask_spread_percentage": 0.607903,
       "timestamp": "2024-06-17T16:05:07+00:00",
       "last_traded_at": "2024-06-17T16:05:07+00:00",
-      "last_fetch_at": "2024-06-17T16:05:07+00:00",
+      "last_fetch_at": "2024-06-17T16:08:06+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://www.binance.com/en/trade/GRT_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "the-graph",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "GRT",
+      "target": "BTC",
+      "market": {
+        "name": "Coinbase Exchange",
+        "identifier": "gdax",
+        "has_trading_incentive": false
+      },
+      "last": 0.00000328,
+      "volume": 1183970.31,
+      "converted_last": {
+        "btc": 0.00000328,
+        "eth": 0.00006122,
+        "usd": 0.214813
+      },
+      "converted_volume": {
+        "btc": 3.883423,
+        "eth": 72.479,
+        "usd": 254332
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.304878,
+      "timestamp": "2024-06-17T16:08:09+00:00",
+      "last_traded_at": "2024-06-17T16:08:09+00:00",
+      "last_fetch_at": "2024-06-17T16:08:09+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.coinbase.com/advanced-trade/spot/GRT-BTC",
+      "token_info_url": null,
+      "coin_id": "the-graph",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "GRT",
+      "target": "BTC",
+      "market": {
+        "name": "WhiteBIT",
+        "identifier": "whitebit",
+        "has_trading_incentive": false
+      },
+      "last": 0.00000327,
+      "volume": 576158,
+      "converted_last": {
+        "btc": 0.00000327,
+        "eth": 0.00006107,
+        "usd": 0.214136
+      },
+      "converted_volume": {
+        "btc": 1.884037,
+        "eth": 35.186046,
+        "usd": 123376
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.607903,
+      "timestamp": "2024-06-17T16:09:49+00:00",
+      "last_traded_at": "2024-06-17T16:09:49+00:00",
+      "last_fetch_at": "2024-06-17T16:09:49+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://whitebit.com/trade/GRT_BTC",
       "token_info_url": null,
       "coin_id": "the-graph",
       "target_coin_id": "bitcoin"
@@ -215,19 +279,19 @@
       "volume": 458422.633145,
       "converted_last": {
         "btc": 0.00000327,
-        "eth": 0.00006109,
+        "eth": 0.00006106,
         "usd": 0.2141
       },
       "converted_volume": {
-        "btc": 1.500514,
-        "eth": 28.006268,
+        "btc": 1.498789,
+        "eth": 27.991204,
         "usd": 98148
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.373657,
+      "bid_ask_spread_percentage": 0.652681,
       "timestamp": "2024-06-17T15:48:24+00:00",
       "last_traded_at": "2024-06-17T15:48:24+00:00",
-      "last_fetch_at": "2024-06-17T16:05:16+00:00",
+      "last_fetch_at": "2024-06-17T16:09:19+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://exchange.gemini.com/trade/GRTUSD",
@@ -246,19 +310,19 @@
       "volume": 32946.386234,
       "converted_last": {
         "btc": 0.00000328,
-        "eth": 0.00006124,
+        "eth": 0.00006121,
         "usd": 0.21462
       },
       "converted_volume": {
-        "btc": 0.10810238,
-        "eth": 2.017672,
+        "btc": 0.10797811,
+        "eth": 2.016586,
         "usd": 7070.95
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.232234,
+      "bid_ask_spread_percentage": 0.2792,
       "timestamp": "2024-06-17T16:04:03+00:00",
       "last_traded_at": "2024-06-17T16:04:03+00:00",
-      "last_fetch_at": "2024-06-17T16:05:02+00:00",
+      "last_fetch_at": "2024-06-17T16:09:02+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://trading.bitfinex.com/t/GRT:USD?type=exchange",
@@ -267,67 +331,34 @@
     },
     {
       "base": "GRT",
-      "target": "BTC",
+      "target": "USD",
       "market": {
-        "name": "Coinbase Exchange",
-        "identifier": "gdax",
+        "name": "Bitso",
+        "identifier": "bitso",
         "has_trading_incentive": false
       },
-      "last": 0.00000328,
-      "volume": 1178959.65,
-      "converted_last": {
-        "btc": 0.00000328,
-        "eth": 0.00006125,
-        "usd": 0.214543
-      },
-      "converted_volume": {
-        "btc": 3.866988,
-        "eth": 72.213,
-        "usd": 252937
-      },
-      "trust_score": "green",
-      "bid_ask_spread_percentage": 0.303951,
-      "timestamp": "2024-06-17T16:04:54+00:00",
-      "last_traded_at": "2024-06-17T16:04:54+00:00",
-      "last_fetch_at": "2024-06-17T16:04:54+00:00",
-      "is_anomaly": false,
-      "is_stale": false,
-      "trade_url": "https://www.coinbase.com/advanced-trade/spot/GRT-BTC",
-      "token_info_url": null,
-      "coin_id": "the-graph",
-      "target_coin_id": "bitcoin"
-    },
-    {
-      "base": "GRT",
-      "target": "BTC",
-      "market": {
-        "name": "WhiteBIT",
-        "identifier": "whitebit",
-        "has_trading_incentive": false
-      },
-      "last": 0.00000329,
-      "volume": 575288,
+      "last": 0.215406,
+      "volume": 58567.75303974,
       "converted_last": {
         "btc": 0.00000329,
-        "eth": 0.00006144,
-        "usd": 0.215197
+        "eth": 0.00006142,
+        "usd": 0.215406
       },
       "converted_volume": {
-        "btc": 1.892698,
-        "eth": 35.344896,
-        "usd": 123800
+        "btc": 0.192731,
+        "eth": 3.59724,
+        "usd": 12615.85
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.607903,
-      "timestamp": "2024-06-17T16:04:48+00:00",
-      "last_traded_at": "2024-06-17T16:04:48+00:00",
-      "last_fetch_at": "2024-06-17T16:04:48+00:00",
+      "bid_ask_spread_percentage": 0.130855,
+      "timestamp": "2024-06-17T16:06:20+00:00",
+      "last_traded_at": "2024-06-17T16:06:20+00:00",
+      "last_fetch_at": "2024-06-17T16:06:20+00:00",
       "is_anomaly": false,
       "is_stale": false,
-      "trade_url": "https://whitebit.com/trade/GRT_BTC",
+      "trade_url": null,
       "token_info_url": null,
-      "coin_id": "the-graph",
-      "target_coin_id": "bitcoin"
+      "coin_id": "the-graph"
     },
     {
       "base": "GRT",
@@ -341,19 +372,19 @@
       "volume": 102212,
       "converted_last": {
         "btc": 0.00000328,
-        "eth": 0.00006122,
-        "usd": 0.214544
+        "eth": 0.00006126,
+        "usd": 0.214791
       },
       "converted_volume": {
         "btc": 0.35045977,
-        "eth": 6.54114,
-        "usd": 22923
+        "eth": 6.545145,
+        "usd": 22950
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.576631,
+      "bid_ask_spread_percentage": 0.698876,
       "timestamp": "2024-06-17T15:20:20+00:00",
       "last_traded_at": "2024-06-17T15:20:20+00:00",
-      "last_fetch_at": "2024-06-17T16:05:19+00:00",
+      "last_fetch_at": "2024-06-17T16:09:35+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://www.okx.com/trade-spot/grt-btc",
@@ -374,18 +405,18 @@
       "converted_last": {
         "btc": 0.00000328,
         "eth": 0.00006129,
-        "usd": 0.214673
+        "usd": 0.214922
       },
       "converted_volume": {
         "btc": 0.04647188,
-        "eth": 0.86783218,
-        "usd": 3039.69
+        "eth": 0.86790337,
+        "usd": 3043.21
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 0.364631,
+      "bid_ask_spread_percentage": 0.365742,
       "timestamp": "2024-06-17T16:04:42+00:00",
       "last_traded_at": "2024-06-17T16:04:42+00:00",
-      "last_fetch_at": "2024-06-17T16:04:42+00:00",
+      "last_fetch_at": "2024-06-17T16:09:32+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://latoken.com/exchange/BTC-GRT",
@@ -401,23 +432,23 @@
         "identifier": "cryptal",
         "has_trading_incentive": false
       },
-      "last": 0.21427,
-      "volume": 33623.4,
+      "last": 0.21368,
+      "volume": 33616.4,
       "converted_last": {
-        "btc": 0.00000328,
-        "eth": 0.00006133,
-        "usd": 0.21427
+        "btc": 0.00000326,
+        "eth": 0.00006093,
+        "usd": 0.21368
       },
       "converted_volume": {
-        "btc": 0.11698601,
-        "eth": 2.186765,
-        "usd": 7640.1
+        "btc": 0.11665524,
+        "eth": 2.177319,
+        "usd": 7636.06
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 1.680633,
-      "timestamp": "2024-06-17T16:01:02+00:00",
-      "last_traded_at": "2024-06-17T16:01:02+00:00",
-      "last_fetch_at": "2024-06-17T16:01:02+00:00",
+      "bid_ask_spread_percentage": 1.694525,
+      "timestamp": "2024-06-17T16:06:05+00:00",
+      "last_traded_at": "2024-06-17T16:06:05+00:00",
+      "last_fetch_at": "2024-06-17T16:06:05+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://cryptal.com/ex/",
@@ -432,23 +463,23 @@
         "identifier": "coinex",
         "has_trading_incentive": false
       },
-      "last": 0.0000032651,
-      "volume": 1063.5232916,
+      "last": 0.0000032805,
+      "volume": 1063.69837011,
       "converted_last": {
-        "btc": 0.00000327,
-        "eth": 0.00006103,
-        "usd": 0.213237
+        "btc": 0.00000328,
+        "eth": 0.00006123,
+        "usd": 0.214736
       },
       "converted_volume": {
-        "btc": 0.0036219,
-        "eth": 0.06770248,
-        "usd": 236.54
+        "btc": 0.00362193,
+        "eth": 0.06760169,
+        "usd": 237.09
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 1.402933,
-      "timestamp": "2024-06-17T16:01:38+00:00",
-      "last_traded_at": "2024-06-17T16:01:38+00:00",
-      "last_fetch_at": "2024-06-17T16:01:38+00:00",
+      "bid_ask_spread_percentage": 1.398686,
+      "timestamp": "2024-06-17T16:06:36+00:00",
+      "last_traded_at": "2024-06-17T16:06:36+00:00",
+      "last_fetch_at": "2024-06-17T16:06:36+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://www.coinex.com/trading?currency=BTC&dest=GRT#limit",
@@ -464,23 +495,23 @@
         "identifier": "cryptal",
         "has_trading_incentive": false
       },
-      "last": 0.00000329,
-      "volume": 29863.7,
+      "last": 0.0000033,
+      "volume": 29962.2,
       "converted_last": {
-        "btc": 0.00000329,
-        "eth": 0.0000615,
-        "usd": 0.214863
+        "btc": 0.0000033,
+        "eth": 0.00006159,
+        "usd": 0.216012
       },
       "converted_volume": {
-        "btc": 0.10287561,
-        "eth": 1.923006,
-        "usd": 6718.58
+        "btc": 0.10317123,
+        "eth": 1.925646,
+        "usd": 6753.41
       },
       "trust_score": "green",
-      "bid_ask_spread_percentage": 1.510574,
-      "timestamp": "2024-06-17T16:01:02+00:00",
-      "last_traded_at": "2024-06-17T16:01:02+00:00",
-      "last_fetch_at": "2024-06-17T16:01:02+00:00",
+      "bid_ask_spread_percentage": 1.506024,
+      "timestamp": "2024-06-17T16:06:05+00:00",
+      "last_traded_at": "2024-06-17T16:06:05+00:00",
+      "last_fetch_at": "2024-06-17T16:06:05+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://cryptal.com/ex/",
@@ -496,23 +527,23 @@
         "identifier": "coin_metro",
         "has_trading_incentive": false
       },
-      "last": 0.21484417859194946,
-      "volume": 1499.800000002747,
+      "last": 0.21489879934603937,
+      "volume": 1499.800000002757,
       "converted_last": {
-        "btc": 0.00000329,
-        "eth": 0.00006143,
-        "usd": 0.214844
+        "btc": 0.00000328,
+        "eth": 0.00006124,
+        "usd": 0.214899
       },
       "converted_volume": {
-        "btc": 0.00493023,
-        "eth": 0.09212892,
-        "usd": 322.22
+        "btc": 0.00492131,
+        "eth": 0.09185022,
+        "usd": 322.31
       },
       "trust_score": "yellow",
-      "bid_ask_spread_percentage": 0.235296,
-      "timestamp": "2024-06-17T16:03:37+00:00",
-      "last_traded_at": "2024-06-17T16:03:37+00:00",
-      "last_fetch_at": "2024-06-17T16:03:37+00:00",
+      "bid_ask_spread_percentage": 0.239626,
+      "timestamp": "2024-06-17T16:08:22+00:00",
+      "last_traded_at": "2024-06-17T16:08:22+00:00",
+      "last_fetch_at": "2024-06-17T16:08:22+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://go.coinmetro.com/exchange/grt-usd",
@@ -527,26 +558,57 @@
         "identifier": "cex",
         "has_trading_incentive": false
       },
-      "last": 0.2142,
+      "last": 0.2149,
       "volume": 163.492,
       "converted_last": {
         "btc": 0.00000328,
-        "eth": 0.00006131,
-        "usd": 0.2142
+        "eth": 0.00006124,
+        "usd": 0.2149
       },
       "converted_volume": {
-        "btc": 0.00056158,
-        "eth": 0.0104973,
+        "btc": 0.00056005,
+        "eth": 0.0104521,
         "usd": 36.68
       },
       "trust_score": "yellow",
-      "bid_ask_spread_percentage": 0.186306,
-      "timestamp": "2024-06-17T16:02:14+00:00",
-      "last_traded_at": "2024-06-17T16:02:14+00:00",
-      "last_fetch_at": "2024-06-17T16:02:14+00:00",
+      "bid_ask_spread_percentage": 0.186047,
+      "timestamp": "2024-06-17T16:07:13+00:00",
+      "last_traded_at": "2024-06-17T16:07:13+00:00",
+      "last_fetch_at": "2024-06-17T16:07:13+00:00",
       "is_anomaly": false,
       "is_stale": false,
       "trade_url": "https://trade.cex.io/spot/GRT-USD",
+      "token_info_url": null,
+      "coin_id": "the-graph"
+    },
+    {
+      "base": "GRT",
+      "target": "USD",
+      "market": {
+        "name": "Crypto.com Exchange",
+        "identifier": "crypto_com",
+        "has_trading_incentive": false
+      },
+      "last": 0.21479,
+      "volume": 262878,
+      "converted_last": {
+        "btc": 0.00000328,
+        "eth": 0.00006126,
+        "usd": 0.21479
+      },
+      "converted_volume": {
+        "btc": 0.86223578,
+        "eth": 16.103014,
+        "usd": 56464
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.232537,
+      "timestamp": "2024-06-17T16:08:12+00:00",
+      "last_traded_at": "2024-06-17T16:08:12+00:00",
+      "last_fetch_at": "2024-06-17T16:09:56+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://crypto.com/exchange/trade/spot/GRT_USD",
       "token_info_url": null,
       "coin_id": "the-graph"
     }

@@ -1,0 +1,585 @@
+{
+  "id": "internet-computer",
+  "symbol": "icp",
+  "name": "Internet Computer",
+  "description": {
+    "en": "Internet Computer (IC) is the world’s first blockchain that is capable of running at web speed at unrestrictive capacities. Built by the DFINITY Foundation, IC aims to recreate the web by supporting smart contract development at scale and changing the way people can interact using web services. Internet Computer aims to extend the public internet, so that it can be the world’s computing platform, in a decentralized manner. Internet Computer sets to revolutionalize the design of the crypto economy, with an aim to overhaul traditional software services. \r\n\r\nThe project was founded in October 2016 by Dominic WIllams and have raised a total of $121 million from investors such as Adreessen Horowitz, Polychain Capital, Multicoin Capital and such. On May 10, 2021, DFINITY launched the Internet Computer into the public domain, marking it a major milestone for ICP as it means the internet now functions as a decentralised global computer. This is marked by the release of all of the Internet Computer’s source code into the public domain, as well as ICP utility token that allows tens of thousands of community members to govern the Internet Computer network.\r\n\r\nICP is Internet Computer's native token. It plays three prominent roles:\r\n\r\n1. Network Governance: Users that participate in the governance will be rewarded with ICPI\r\n2. Production of Cycles for Compute: ICP can be converted into cycles where it is used as the transaction fee to access the network. Cycles are burned after used.\r\n3. Rewarding Users: ICP is used as the rewards to incentivize users to participate in the network such as securing the network."
+  },
+  "links": {
+    "homepage": [
+      "https://internetcomputer.org/",
+      "",
+      ""
+    ],
+    "whitepaper": "https://internetcomputer.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://dashboard.internetcomputer.org/canister/ryjl3-tyaaa-aaaaa-aaaba-cai",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "official_forum_url": [
+      "https://forum.dfinity.org/",
+      "https://wiki.internetcomputer.org/wiki/Internet_Computer_wiki",
+      ""
+    ],
+    "chat_url": [
+      "",
+      "",
+      ""
+    ],
+    "announcement_url": [
+      "https://medium.com/dfinity",
+      ""
+    ],
+    "twitter_screen_name": "dfinity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+m8tiEFaaNR8xNjNl",
+    "subreddit_url": "https://www.reddit.com/r/dfinity/",
+    "repos_url": {
+      "github": [
+        "https://github.com/dfinity/ic"
+      ],
+      "bitbucket": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 8.77,
+      "btc": 0.00013399
+    },
+    "ath": {
+      "usd": 700.65,
+      "btc": 0.01208251
+    },
+    "ath_change_percentage": {
+      "usd": -98.74628,
+      "btc": -98.88762
+    },
+    "ath_date": {
+      "usd": "2021-05-10T16:05:53.653Z",
+      "btc": "2021-05-10T16:05:53.653Z"
+    },
+    "atl": {
+      "usd": 2.87,
+      "btc": 0.00010201
+    },
+    "atl_change_percentage": {
+      "usd": 206.5998,
+      "btc": 31.75946
+    },
+    "atl_date": {
+      "usd": "2023-09-22T00:29:57.369Z",
+      "btc": "2023-10-27T02:05:16.834Z"
+    },
+    "market_cap": {
+      "usd": 4082318909,
+      "btc": 62358
+    },
+    "total_volume": {
+      "usd": 97675421,
+      "btc": 1492
+    },
+    "high_24h": {
+      "usd": 9.67,
+      "btc": 0.0001449
+    },
+    "low_24h": {
+      "usd": 8.72,
+      "btc": 0.00013363
+    },
+    "price_change_24h": -0.54813876680522,
+    "price_change_percentage_24h": -5.88287,
+    "price_change_percentage_7d": -20.68659,
+    "price_change_percentage_14d": -27.25434,
+    "price_change_percentage_30d": -35.09756,
+    "price_change_percentage_60d": -30.41255,
+    "price_change_percentage_200d": 97.17396,
+    "price_change_percentage_1y": 120.89641,
+    "market_cap_change_24h": -256400394.73388,
+    "market_cap_change_percentage_24h": -5.90959
+  },
+  "tickers": [
+    {
+      "base": "ICP",
+      "target": "USD",
+      "market": {
+        "name": "Kraken",
+        "identifier": "kraken",
+        "has_trading_incentive": false
+      },
+      "last": 8.77,
+      "volume": 392958.30096046,
+      "converted_last": {
+        "btc": 0.00013396,
+        "eth": 0.00250456,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 52.642,
+        "eth": 984.187,
+        "usd": 3446244
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.011416,
+      "timestamp": "2024-06-17T16:12:25+00:00",
+      "last_traded_at": "2024-06-17T16:12:25+00:00",
+      "last_fetch_at": "2024-06-17T16:12:25+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://pro.kraken.com/app/trade/ICP-USD",
+      "token_info_url": null,
+      "coin_id": "internet-computer"
+    },
+    {
+      "base": "ICP",
+      "target": "USD",
+      "market": {
+        "name": "Coinbase Exchange",
+        "identifier": "gdax",
+        "has_trading_incentive": false
+      },
+      "last": 8.767,
+      "volume": 618185.045,
+      "converted_last": {
+        "btc": 0.00013392,
+        "eth": 0.0025037,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 82.786,
+        "eth": 1548,
+        "usd": 5419628
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.057013,
+      "timestamp": "2024-06-17T16:12:13+00:00",
+      "last_traded_at": "2024-06-17T16:12:13+00:00",
+      "last_fetch_at": "2024-06-17T16:12:13+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.coinbase.com/advanced-trade/spot/ICP-USD",
+      "token_info_url": null,
+      "coin_id": "internet-computer"
+    },
+    {
+      "base": "ICP",
+      "target": "USD",
+      "market": {
+        "name": "Crypto.com Exchange",
+        "identifier": "crypto_com",
+        "has_trading_incentive": false
+      },
+      "last": 8.7885,
+      "volume": 30914.79,
+      "converted_last": {
+        "btc": 0.00013425,
+        "eth": 0.00250827,
+        "usd": 8.79
+      },
+      "converted_volume": {
+        "btc": 4.15016,
+        "eth": 77.543,
+        "usd": 271695
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.216074,
+      "timestamp": "2024-06-17T16:11:06+00:00",
+      "last_traded_at": "2024-06-17T16:11:06+00:00",
+      "last_fetch_at": "2024-06-17T16:11:06+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://crypto.com/exchange/trade/spot/ICP_USD",
+      "token_info_url": null,
+      "coin_id": "internet-computer"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "Binance",
+        "identifier": "binance",
+        "has_trading_incentive": false
+      },
+      "last": 0.0001339,
+      "volume": 29731.25,
+      "converted_last": {
+        "btc": 0.0001339,
+        "eth": 0.00250182,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 4.122618,
+        "eth": 77.028,
+        "usd": 269892
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.07446,
+      "timestamp": "2024-06-17T16:11:05+00:00",
+      "last_traded_at": "2024-06-17T16:11:05+00:00",
+      "last_fetch_at": "2024-06-17T16:11:05+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.binance.com/en/trade/ICP_BTC?ref=37754157",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "Coinbase Exchange",
+        "identifier": "gdax",
+        "has_trading_incentive": false
+      },
+      "last": 0.000135,
+      "volume": 19285.7185,
+      "converted_last": {
+        "btc": 0.000135,
+        "eth": 0.00252124,
+        "usd": 8.84
+      },
+      "converted_volume": {
+        "btc": 2.603572,
+        "eth": 48.624003,
+        "usd": 170495
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.149254,
+      "timestamp": "2024-06-17T15:50:06+00:00",
+      "last_traded_at": "2024-06-17T15:50:06+00:00",
+      "last_fetch_at": "2024-06-17T16:09:53+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.coinbase.com/advanced-trade/spot/ICP-BTC",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "WhiteBIT",
+        "identifier": "whitebit",
+        "has_trading_incentive": false
+      },
+      "last": 0.0001345,
+      "volume": 13525.24,
+      "converted_last": {
+        "btc": 0.0001345,
+        "eth": 0.00251191,
+        "usd": 8.81
+      },
+      "converted_volume": {
+        "btc": 1.819145,
+        "eth": 33.974133,
+        "usd": 119127
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.223714,
+      "timestamp": "2024-06-17T16:09:49+00:00",
+      "last_traded_at": "2024-06-17T16:09:49+00:00",
+      "last_fetch_at": "2024-06-17T16:09:49+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://whitebit.com/trade/ICP_BTC",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "USD",
+      "market": {
+        "name": "Bitfinex",
+        "identifier": "bitfinex",
+        "has_trading_incentive": false
+      },
+      "last": 8.768,
+      "volume": 647.12860046,
+      "converted_last": {
+        "btc": 0.00013393,
+        "eth": 0.00250399,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 0.08667169,
+        "eth": 1.620402,
+        "usd": 5674.02
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.330409,
+      "timestamp": "2024-06-17T16:07:02+00:00",
+      "last_traded_at": "2024-06-17T16:07:02+00:00",
+      "last_fetch_at": "2024-06-17T16:12:02+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://trading.bitfinex.com/t/ICP:USD?type=exchange",
+      "token_info_url": null,
+      "coin_id": "internet-computer"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "KuCoin",
+        "identifier": "kucoin",
+        "has_trading_incentive": false
+      },
+      "last": 0.000135,
+      "volume": 2307.3487,
+      "converted_last": {
+        "btc": 0.000135,
+        "eth": 0.00252394,
+        "usd": 8.84
+      },
+      "converted_volume": {
+        "btc": 0.31149207,
+        "eth": 5.823614,
+        "usd": 20392
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.520833,
+      "timestamp": "2024-06-17T16:09:49+00:00",
+      "last_traded_at": "2024-06-17T16:09:49+00:00",
+      "last_fetch_at": "2024-06-17T16:12:10+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.kucoin.com/trade/ICP-BTC",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "LATOKEN",
+        "identifier": "latoken",
+        "has_trading_incentive": false
+      },
+      "last": 0.00013399,
+      "volume": 1150.0969280543325,
+      "converted_last": {
+        "btc": 0.00013399,
+        "eth": 0.00250238,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 0.15410149,
+        "eth": 2.877981,
+        "usd": 10091.35
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.089546,
+      "timestamp": "2024-06-17T16:09:32+00:00",
+      "last_traded_at": "2024-06-17T16:09:32+00:00",
+      "last_fetch_at": "2024-06-17T16:09:32+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://latoken.com/exchange/BTC-ICP",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "CoinEx",
+        "identifier": "coinex",
+        "has_trading_incentive": false
+      },
+      "last": 0.00013338,
+      "volume": 114.43302414,
+      "converted_last": {
+        "btc": 0.00013338,
+        "eth": 0.00249211,
+        "usd": 8.73
+      },
+      "converted_volume": {
+        "btc": 0.01572339,
+        "eth": 0.2937799,
+        "usd": 1029.35
+      },
+      "trust_score": "green",
+      "bid_ask_spread_percentage": 0.854828,
+      "timestamp": "2024-06-17T16:11:23+00:00",
+      "last_traded_at": "2024-06-17T16:11:23+00:00",
+      "last_fetch_at": "2024-06-17T16:11:23+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.coinex.com/trading?currency=BTC&dest=ICP#limit",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "USD",
+      "market": {
+        "name": "CEX.IO",
+        "identifier": "cex",
+        "has_trading_incentive": false
+      },
+      "last": 8.771,
+      "volume": 3285.80326644,
+      "converted_last": {
+        "btc": 0.00013398,
+        "eth": 0.00250484,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 0.44272119,
+        "eth": 8.277055,
+        "usd": 28983
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.159617,
+      "timestamp": "2024-06-17T16:12:20+00:00",
+      "last_traded_at": "2024-06-17T16:12:20+00:00",
+      "last_fetch_at": "2024-06-17T16:12:20+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://trade.cex.io/spot/ICP-USD",
+      "token_info_url": null,
+      "coin_id": "internet-computer"
+    },
+    {
+      "base": "ICP",
+      "target": "USD",
+      "market": {
+        "name": "Tokenize",
+        "identifier": "tokenize",
+        "has_trading_incentive": false
+      },
+      "last": 8.756,
+      "volume": 23953.986300251257,
+      "converted_last": {
+        "btc": 0.00013375,
+        "eth": 0.00250056,
+        "usd": 8.76
+      },
+      "converted_volume": {
+        "btc": 3.203832,
+        "eth": 59.898,
+        "usd": 209741
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.409743,
+      "timestamp": "2024-06-17T16:12:33+00:00",
+      "last_traded_at": "2024-06-17T16:12:33+00:00",
+      "last_fetch_at": "2024-06-17T16:12:33+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://tokenize.exchange/market/USD-ICP",
+      "token_info_url": null,
+      "coin_id": "internet-computer"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "TokoCrypto",
+        "identifier": "toko_crypto",
+        "has_trading_incentive": false
+      },
+      "last": 0.0001345,
+      "volume": 1.096802974,
+      "converted_last": {
+        "btc": 0.0001345,
+        "eth": 0.00251038,
+        "usd": 8.8
+      },
+      "converted_volume": {
+        "btc": 0.00014752,
+        "eth": 0.0027534,
+        "usd": 9.66
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.148148,
+      "timestamp": "2024-06-17T16:06:32+00:00",
+      "last_traded_at": "2024-06-17T16:06:32+00:00",
+      "last_fetch_at": "2024-06-17T16:06:32+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://www.tokocrypto.com/trade/ICPBTC",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "Nominex",
+        "identifier": "nominex",
+        "has_trading_incentive": false
+      },
+      "last": 0.0001343,
+      "volume": 1.455011169,
+      "converted_last": {
+        "btc": 0.0001343,
+        "eth": 0.00250665,
+        "usd": 8.79
+      },
+      "converted_volume": {
+        "btc": 0.00019541,
+        "eth": 0.00364721,
+        "usd": 12.79
+      },
+      "trust_score": "yellow",
+      "bid_ask_spread_percentage": 0.14892,
+      "timestamp": "2024-06-17T16:06:55+00:00",
+      "last_traded_at": "2024-06-17T16:06:55+00:00",
+      "last_fetch_at": "2024-06-17T16:06:55+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://nominex.io/en/markets/ICP/BTC",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    },
+    {
+      "base": "ICP",
+      "target": "BTC",
+      "market": {
+        "name": "LocalTrade",
+        "identifier": "localtrade",
+        "has_trading_incentive": false
+      },
+      "last": 0.0001339,
+      "volume": 1591.83775932,
+      "converted_last": {
+        "btc": 0.0001339,
+        "eth": 0.00250338,
+        "usd": 8.77
+      },
+      "converted_volume": {
+        "btc": 0.21314708,
+        "eth": 3.984969,
+        "usd": 13953.82
+      },
+      "trust_score": "red",
+      "bid_ask_spread_percentage": 0.089485,
+      "timestamp": "2024-06-17T16:12:09+00:00",
+      "last_traded_at": "2024-06-17T16:12:09+00:00",
+      "last_fetch_at": "2024-06-17T16:12:09+00:00",
+      "is_anomaly": false,
+      "is_stale": false,
+      "trade_url": "https://localtrade.cc/trade/ICP_BTC",
+      "token_info_url": null,
+      "coin_id": "internet-computer",
+      "target_coin_id": "bitcoin"
+    }
+  ]
+}
