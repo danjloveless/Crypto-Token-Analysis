@@ -23,7 +23,7 @@ const db = new sqlite3.Database(dbFile, (err) => {
 
 app.post('/api/getTokenData', async (req, res) => {
   const { id } = req.body;
-  console.log(`Received request to fetch token data for coin ID: ${id}`);
+  console.log(`Received request to fetch token data for id: ${id}`);
 
   db.get(
     'SELECT * FROM coin WHERE id = ?',
@@ -39,7 +39,8 @@ app.post('/api/getTokenData', async (req, res) => {
         return res.status(404).json({ error: 'Coin not found' });
       }
 
-      const url = `https://api.coingecko.com/api/v3/coins/${coin.id}`;
+      const url = `https://api.coingecko.com/api/v3/coins/${coin.id}?localization=false&tickers=true&market_data=true&community_data=true&developer_data=true&sparkline=false`;
+
       const options = {
         method: 'GET',
         headers: {
@@ -48,7 +49,7 @@ app.post('/api/getTokenData', async (req, res) => {
         },
       };
 
-      console.log(`Fetching token data from CoinGecko for coin ID: ${id}`);
+      console.log(`Fetching token data from CoinGecko for id: ${id}`);
       console.log(`URL: ${url}`);
 
       try {
@@ -63,11 +64,72 @@ app.post('/api/getTokenData', async (req, res) => {
         const data = JSON.parse(text);
         console.log('Fetched data:', data);
 
-        // Save the data to a JSON file
-        const jsonFilePath = path.join(__dirname, 'fetchedData.json');
-        fs.writeFileSync(jsonFilePath, JSON.stringify(data, null, 2));
+        // Filter data for USD and BTC
+        const filteredData = {
+          id: data.id,
+          symbol: data.symbol,
+          name: data.name,
+          description: data.description,
+          links: data.links,
+          market_data: {
+            current_price: {
+              usd: data.market_data.current_price.usd,
+            },
+            ath: {
+              usd: data.market_data.ath.usd,
+            },
+            ath_change_percentage: {
+              usd: data.market_data.ath_change_percentage.usd,
+            },
+            ath_date: {
+              usd: data.market_data.ath_date.usd,
+            },
+            atl: {
+              usd: data.market_data.atl.usd,
+            },
+            atl_change_percentage: {
+              usd: data.market_data.atl_change_percentage.usd,
+            },
+            atl_date: {
+              usd: data.market_data.atl_date.usd,
+            },
+            market_cap: {
+              usd: data.market_data.market_cap.usd,
+            },
+            total_volume: {
+              usd: data.market_data.total_volume.usd,
+            },
+            high_24h: {
+              usd: data.market_data.high_24h.usd,
+            },
+            low_24h: {
+              usd: data.market_data.low_24h.usd,
+            },
+            price_change_24h: data.market_data.price_change_24h,
+            price_change_percentage_24h: data.market_data.price_change_percentage_24h,
+            price_change_percentage_7d: data.market_data.price_change_percentage_7d,
+            price_change_percentage_14d: data.market_data.price_change_percentage_14d,
+            price_change_percentage_30d: data.market_data.price_change_percentage_30d,
+            price_change_percentage_60d: data.market_data.price_change_percentage_60d,
+            price_change_percentage_200d: data.market_data.price_change_percentage_200d,
+            price_change_percentage_1y: data.market_data.price_change_percentage_1y,
+            market_cap_change_24h: data.market_data.market_cap_change_24h,
+            market_cap_change_percentage_24h: data.market_data.market_cap_change_percentage_24h,
+          },
+          tickers: data.tickers.filter(ticker => ticker.target === 'USD' || ticker.target === 'BTC')
+        };
 
-        res.json(data);
+        // Save filtered data to a JSON file
+        const filePath = path.join(__dirname, 'fetchedData', `${id}.json`);
+        fs.writeFile(filePath, JSON.stringify(filteredData, null, 2), (err) => {
+          if (err) {
+            console.error('Error saving data to file:', err);
+            return res.status(500).json({ error: 'Error saving data to file' });
+          }
+          console.log(`Data saved to ${filePath}`);
+        });
+
+        res.json(filteredData);
       } catch (error) {
         console.error('Error parsing or fetching token data:', error);
         res.status(500).json({ error: 'Error fetching token data' });

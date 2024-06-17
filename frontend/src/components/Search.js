@@ -48,6 +48,7 @@ function Search() {
 
   return (
     <div>
+      <h1>Crypto Token Analysis</h1>
       <input
         type="text"
         placeholder="Search for a coin..."
@@ -65,10 +66,19 @@ function Search() {
       {coinData && (
         <div>
           <h2>{coinData.name} ({coinData.symbol})</h2>
-          <p>Market Cap Rank: {coinData.market_cap_rank}</p>
-          <p>Current Price (USD): {coinData.market_data.current_price.usd}</p>
-          <p>Homepage: <a href={coinData.links.homepage[0]}>{coinData.links.homepage[0]}</a></p>
-          <p>Description: {coinData.description.en}</p>
+          {coinData.market_cap_rank !== undefined && (
+            <p>Market Cap Rank: {coinData.market_cap_rank}</p>
+          )}
+          {coinData.market_data?.current_price?.usd !== undefined && (
+            <p>Current Price (USD): ${coinData.market_data.current_price.usd}</p>
+          )}
+          {coinData.market_data?.current_price?.btc !== undefined && (
+            <p>Current Price (BTC): {coinData.market_data.current_price.btc} BTC</p>
+          )}
+          {coinData.links?.homepage && coinData.links.homepage.length > 0 && (
+            <p>Homepage: <a href={coinData.links.homepage[0]} target="_blank" rel="noopener noreferrer">{coinData.links.homepage[0]}</a></p>
+          )}
+          {coinData.description?.en && <p>Description: {coinData.description.en}</p>}
           {/* Add more details as needed */}
         </div>
       )}
