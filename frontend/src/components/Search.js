@@ -50,25 +50,25 @@ function Search() {
     <div>
       <input
         type="text"
+        placeholder="Search for a coin..."
         value={query}
         onChange={handleInputChange}
-        placeholder="Search for a coin..."
       />
-      {suggestions.length > 0 && (
-        <ul>
-          {suggestions.map((coin) => (
-            <li key={coin.id} onClick={() => handleSuggestionClick(coin)}>
-              {coin.name} ({coin.symbol})
-            </li>
-          ))}
-        </ul>
-      )}
+      <ul>
+        {suggestions.map((coin) => (
+          <li key={coin.id} onClick={() => handleSuggestionClick(coin)}>
+            {coin.name} ({coin.symbol})
+          </li>
+        ))}
+      </ul>
       <button onClick={handleSearch}>Search</button>
       {coinData && (
         <div>
-          <h2>{coinData.name}</h2>
-          <p>Symbol: {coinData.symbol}</p>
-          <p>Platform: {coinData.asset_platform_id}</p>
+          <h2>{coinData.name} ({coinData.symbol})</h2>
+          <p>Market Cap Rank: {coinData.market_cap_rank}</p>
+          <p>Current Price (USD): {coinData.market_data.current_price.usd}</p>
+          <p>Homepage: <a href={coinData.links.homepage[0]}>{coinData.links.homepage[0]}</a></p>
+          <p>Description: {coinData.description.en}</p>
           {/* Add more details as needed */}
         </div>
       )}
